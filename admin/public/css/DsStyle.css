@@ -1,0 +1,174 @@
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #E4E4E4;
+}
+a{
+    text-decoration: none;
+}
+/*style header*/
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #3C71B0;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.logo{
+    width: 10%;
+    margin: 5px 70px 0 50px;
+}
+.small-menu{
+    width: 40%;
+    padding-top: 20px;
+}
+.small-menu a{
+    margin: 150px 50px;
+    color: white;
+    font-size: 18px;
+}
+.small-menu a:hover{
+    color: rgb(228, 135, 13);
+}
+.search{
+    padding-top: 15px;
+    width: 30%;
+}
+.search form{
+    position: relative;
+}
+.search input{
+    border-radius: 40px;
+    height: 28px;
+    width: 200px;
+    background-color: #3C71B0;
+    border: 1px solid white;
+    border-color: white;
+    color: white;
+    padding-left: 10px;
+
+}
+::placeholder{
+    color: white;
+}
+.search button{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background-color: inherit;
+    border: none;
+}
+.search button:hover{
+    cursor: pointer;
+}
+.search button i{
+    font-size: 17px;
+    color: white;
+}
+.search #notify{
+    margin:5px 20px 0px 20px;
+}
+#notify i{
+    font-size: 25px;
+    color: white;
+}
+.accountImage{
+    border-radius: 50%;
+}
+/*style content*/
+section{
+    display: flex;
+}
+.menu{
+    width: 18%;
+    height: 800px;
+    background-color: white;
+    margin: 0 10px;
+}
+.menu-list ul{
+    list-style-type: none;
+}
+.menu-list ul li{
+    margin: 25px 0px;
+    position: relative;
+}
+.menu-list ul li a{
+    color: #4F4C4C;
+    font-size: 18px;
+}
+.menu-list ul li a:hover{
+    color: #145fba;
+}
+#icon-content{
+    margin-right: 15px;
+}
+#icon-show-detail{
+    position: absolute;
+    right: 20px;
+}
+.content{
+    width: 80%;
+    background-color: white;
+}
+
+/*style dslop*/
+.title-list{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px 20px;
+    font-family: 'roboto-medium';
+}
+.title-list p{
+    padding: 10px;
+}
+.Loplist{
+    margin-left: 20px;
+    width: 90%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th:last-child{
+    width: 15%;
+}
+tr:first-child{
+    background-color: #0077b6;
+    height: 50px;
+}
+td{
+    height: 30px;
+}
+table a{
+    padding: 3px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+#edit{
+    background-color: #FB8500;
+}
+#delete{
+    background-color: #023047;
+}
+.option-list{
+    margin:20px 20px;
+}
+.option-list a{
+    padding: 3px 10px 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid rgb(22, 22, 22);
+}
+.option-list a:hover{
+    background-color: #FB8500;
+    cursor: pointer;
+    color: white;
+}
